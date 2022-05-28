@@ -28,7 +28,9 @@ python main.py
 ```
 ## Demo container
 [![HERE THE TUTORIAL](http://i3.ytimg.com/vi/3Sz1LUqCmW4/hqdefault.jpg)](https://youtu.be/3Sz1LUqCmW4)
+
 Klik gambar diatas
+
 ## Depedencies (Library)
 Adapun library yang kami gunakan dalam membuat game Halcyon, yaitu:
 - **[Pygame](https://www.pygame.org)** merupakan library Python untuk membuat atau mengembangkan game.

@@ -27,7 +27,7 @@ docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 0:0 -e DISPLAY=172.19.1
 python main.py
 ```
 ## Demo run Docker
-
+[![HERE THE TUTORIAL](https://youtu.be/3Sz1LUqCmW4)
 ## Depedencies (Library)
 Adapun library yang kami gunakan dalam membuat game Halcyon, yaitu:
 - **[Pygame](https://www.pygame.org)** merupakan library Python untuk membuat atau mengembangkan game.

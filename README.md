@@ -40,7 +40,7 @@ docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 0:0 -e DISPLAY=172.19.1
   - Ketik `WIN+R` untuk membuka windows run, isikan dengan `CMD`
   - Didalam `CMD`, jalankan sintax `ipconfig`
   - Lalu salin `IPv4 Address` untuk mengubah `DISPLAY` 
-- Untuk melihat file yang ada di dalam container, ketik `ls`, jika build sukses maka terlihat beberapa file dari program game ini
+- Untuk melihat file yang ada di dalam container, ketik `ls`, jika alamat container benar maka terlihat beberapa file dari program game ini
 - Terakhir jalankan syntax berikut untuk memulai game
 ```
 python main.py

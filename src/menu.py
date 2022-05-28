@@ -62,19 +62,19 @@ def main_menu():
                     f.write(str(highlevel))
         #render font
         title_game = title_font.render("HALCYON HIGHER", 1, (255,0,0))
-        WINDOW.blit(title_game, (WIDTH/2 - title_game.get_width()/2, HEIGHT/2 - title_game.get_height()*2))
+        WINDOW.blit(title_game, (WIDTH/2 - title_game.get_width()/2, HEIGHT/2 - title_game.get_height()*3))
 
         title_highscore = title_font.render(f"Score : {highscore} | Level : {highlevel}", 1, (255,0,0))
-        WINDOW.blit(title_highscore, (WIDTH/2 - title_highscore.get_width()/2, HEIGHT/3.2 + title_highscore.get_height()))
+        WINDOW.blit(title_highscore, (WIDTH/2 - title_highscore.get_width()/2, HEIGHT/2.5 + title_highscore.get_height()))
 
         title_button1 = title_font.render("Lets Begin!", 1, (255,255,255))
-        WINDOW.blit(title_button1, (WIDTH/2 - title_button1.get_width()/2, HEIGHT/2))
+        WINDOW.blit(title_button1, (WIDTH/2 - title_button1.get_width()/2, HEIGHT/1.9))
 
         title_button2 = title_font.render("How To Play", 1, (255,255,255))
-        WINDOW.blit(title_button2, (WIDTH/2 - title_button2.get_width()/2, HEIGHT/2 + title_button2.get_height()*1.2))
+        WINDOW.blit(title_button2, (WIDTH/2 - title_button2.get_width()/2, HEIGHT/2 + title_button2.get_height()*3))
 
         title_button3 = title_font.render("Reset Higher", 1, (255,255,255))
-        WINDOW.blit(title_button3, (WIDTH/2 - title_button3.get_width()/2, HEIGHT/2 + title_button3.get_height()*2.4))
+        WINDOW.blit(title_button3, (WIDTH/2 - title_button3.get_width()/2, HEIGHT/2 + title_button3.get_height()*5))
         #quit window and condition if button click 
         click = False
         for event in pygame.event.get():

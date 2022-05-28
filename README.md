@@ -1,4 +1,4 @@
-# HALCYON <img src="assets/player.png" align="right" />
+# [HALCYON](https://github.com/ryan-ern/Halcyon) <img src="assets/player.png" align="right" />
 Pada tugas besar Pemrograman Berorientasi Objek kami membuat sebuah game bernama Halcyon yang menggunakan bahasa pemrograman Python dengan _library_ pygame, Halcyon adalah game ber genre _Action_ dan _Shoot 'Em Up_.
 
 Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang menggunakan pesawat perang (player) untuk mengalahkan musuh-musuh di setiap levelnya. selain itu musuh juga memiliki kemampuan untuk menembak dan muncul secara _random_ dari kanan _window_ ke arah player (kiri). 
@@ -28,6 +28,7 @@ python main.py
 ```
 ## Demo container
 [![HERE THE TUTORIAL](http://i3.ytimg.com/vi/3Sz1LUqCmW4/hqdefault.jpg)](https://youtu.be/3Sz1LUqCmW4)
+Klik gambar diatas
 ## Depedencies (Library)
 Adapun library yang kami gunakan dalam membuat game Halcyon, yaitu:
 - **[Pygame](https://www.pygame.org)** merupakan library Python untuk membuat atau mengembangkan game.

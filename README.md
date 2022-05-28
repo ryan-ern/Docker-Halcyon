@@ -4,16 +4,16 @@ Pada tugas besar Pemrograman Berorientasi Objek kami membuat sebuah game bernama
 Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang menggunakan pesawat perang (player) untuk mengalahkan musuh-musuh di setiap levelnya. selain itu musuh juga memiliki kemampuan untuk menembak dan muncul secara _random_ dari kanan _window_ ke arah player (kiri). 
 
 ## How to run Docker
-- Unduh repository dengan [klik disini](https://github.com/rifan-frmsh/InvasiUFO/archive/refs/heads/main.zip) lalu pindahkan file tersebut ke disk `(D:)`
+- Unduh dan ekstrak repository dengan [klik disini](https://github.com/rifan-frmsh/InvasiUFO/archive/refs/heads/main.zip) lalu pindahkan file tersebut ke disk `(D:)`
 - Unduh vcxsrv dan install, fungsinya sebagai GUI untuk menjalankan game ini [klik disini](https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.20.14.0/vcxsrv-64.1.20.14.0.installer.exe?ts=gAAAAABikM4htiS-mb2njw45IMlr5iPITdvV6w5QqC2tlvxcF5u9QUvHH742ZgREwNiP9q8K8-TvhIPFacna04QFFrmqVtzk7A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fvcxsrv%2Ffiles%2Flatest%2Fdownload)
 - jalankan Xlaunch dan next hingga muncul seperti digambar, kemudian next hingga finish
 <div align="center"> 
 <img src="assets/vcxsrv.png" alt="image can't be load" />
 </div>
 
-- berikutnya buka terminal dan pastikan directorynya berada pada lokasi folder d dan file yang didownload 
+- berikutnya buka terminal dan pastikan directorynya berada pada lokasi folder `(D:)`
 - sebelum lanjut pastikan docker sudah aktif
-- pada terminal jalankan syntax berikut untuk build docker
+- pada terminal, jalankan syntax berikut untuk build docker
 ```
 docker build -t halcyon .
 ```
@@ -21,7 +21,11 @@ docker build -t halcyon .
 ```
 docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 0:0 -e DISPLAY=172.19.176.1:0.0 -v /d/halcyon-main:/home/apps halcyon /bin/bash
 ```
-- lalu ketik `ls` untuk melihat file yang ada di dalam container, jika build sukses maka terlihat beberapa file dari program game ini
+- untuk `DISPLAY` sesuaikan dengan ip yang anda punya dengan cara:
+  - ketik `WIN+R` untuk membuka windows run, isikan dengan `CMD`
+  - didalam `CMD`, jalankan sintax `ipconfig`
+  - lalu salin `IPv4 Address` untuk mengubah `DISPLAY` 
+- untuk melihat file yang ada di dalam container, ketik `ls`, jika build sukses maka terlihat beberapa file dari program game ini
 - terakhir jalankan syntax berikut untuk memulai game
 ```
 python main.py

@@ -17,6 +17,10 @@ Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang 
 ```
 docker build -t halcyon .
 ```
+- Untuk melihat apakah berhasil diubat images dockernya dengan cara
+```
+docker images
+```
 - Selanjutnya jalankan container dengan syntax berikut
 ```
 docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 0:0 -e DISPLAY=172.19.176.1:0.0 -v /d/halcyon-main:/home/apps halcyon /bin/bash

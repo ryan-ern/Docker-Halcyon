@@ -1,7 +1,18 @@
 # [HALCYON](https://github.com/ryan-ern/Halcyon) <img src="assets/player.png" align="right" />
+[Pygame](https://www.pygame.org) in [Docker](https://www.docker.com/) Container.
 Pada tugas besar Pemrograman Berorientasi Objek kami membuat sebuah game bernama Halcyon yang menggunakan bahasa pemrograman Python dengan _library_ pygame, Halcyon adalah game ber genre _Action_ dan _Shoot 'Em Up_.
 
 Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang menggunakan pesawat perang (player) untuk mengalahkan musuh-musuh di setiap levelnya. selain itu musuh juga memiliki kemampuan untuk menembak dan muncul secara _random_ dari kanan _window_ ke arah player (kiri). 
+
+## Development Contributor
+| Nama | NIM |
+| :---: | :---: |
+| Abi Luthfi Ramdan Fadhillah | 120140151 |
+| Dean Andhika Ramadhan | 120140155 |
+| Ryan Ernanda | 120140154 |
+| Martatia Amanda | 120140163 |
+| Monica Adella Aisyah Renaldi | 120140144 |
+| M. Rafi Dzaki Akbar | 120140094 |
 
 ## How to run Docker
 - Pertama clone repository ini atau Unduh dan ekstrak dengan cara [klik disini](https://github.com/rifan-frmsh/InvasiUFO/archive/refs/heads/main.zip) lalu pindahkan file tersebut ke disk `(D:)`
@@ -58,11 +69,3 @@ Berikut kontrol dalam game:
 
 ## UML
 Untuk melihat Unified Modeling Language (UML) class diagram dari program kami **[Klik Disini](https://github.com/ryan-ern/Docker-Halcyon/blob/main/assets/UML.png)** 
-
-## Development Contributor
-- Abi Luthfi Ramdan Fadhillah - 120140151 ( **Project Leader and Programmer** )
-- Dean Andhika Ramadhan       - 120140155 ( **Programmer and Sound Effect** )
-- Ryan Ernanda                - 120140154 ( **Programmer and Sound Effect** )
-- Martatia Amanda             - 120140163 ( **Programmer and Design** )
-- Monica Adella Aisyah Renaldi- 120140144 ( **Programmer and Design** )
-- M. Rafi Dzaki Akbar         - 120140094 ( **Programmer and Design** )

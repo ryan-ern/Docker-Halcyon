@@ -8,7 +8,7 @@ Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang 
 - Unduh vcxsrv dan install, fungsinya sebagai GUI untuk menjalankan game ini [klik disini](https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.20.14.0/vcxsrv-64.1.20.14.0.installer.exe?ts=gAAAAABikM4htiS-mb2njw45IMlr5iPITdvV6w5QqC2tlvxcF5u9QUvHH742ZgREwNiP9q8K8-TvhIPFacna04QFFrmqVtzk7A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fvcxsrv%2Ffiles%2Flatest%2Fdownload)
 - jalankan Xlaunch dan next hingga muncul seperti digambar, kemudian next hingga finish
 <div align="center"> 
-<img src="data/vcxsrv.png" alt="image can't be load" />
+<img src="assets/vcxsrv.png" alt="image can't be load" />
 </div>
 
 - berikutnya buka terminal dan pastikan directorynya berada pada lokasi folder d dan file yang didownload 

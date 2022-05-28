@@ -2,6 +2,39 @@
 Pada tugas besar Pemrograman Berorientasi Objek kami membuat sebuah game bernama Halcyon yang menggunakan bahasa pemrograman Python dengan _library_ pygame, Halcyon adalah game ber genre _Action_ dan _Shoot 'Em Up_.
 
 Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang menggunakan pesawat perang (player) untuk mengalahkan musuh-musuh di setiap levelnya. selain itu musuh juga memiliki kemampuan untuk menembak dan muncul secara _random_ dari kanan _window_ ke arah player (kiri). 
+## How to run Docker
+- Unduh repository dengan [klik disini](https://github.com/rifan-frmsh/InvasiUFO/archive/refs/heads/main.zip) lalu pindahkan file tersebut ke disk `(D:)`
+- Unduh vcxsrv dan install, fungsinya sebagai GUI untuk menjalankan game ini [klik disini](https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/1.20.14.0/vcxsrv-64.1.20.14.0.installer.exe?ts=gAAAAABikM4htiS-mb2njw45IMlr5iPITdvV6w5QqC2tlvxcF5u9QUvHH742ZgREwNiP9q8K8-TvhIPFacna04QFFrmqVtzk7A%3D%3D&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fvcxsrv%2Ffiles%2Flatest%2Fdownload)
+- jalankan Xlaunch seperti gambar
+<div align="center"> 
+<img src="data/vcxsrv1.png" alt="image can't be load" />
+  
+<img src="data/vcxsrv2.png" alt="image can't be load"/>
+  
+<img src="data/vcxsrv3.png" alt="image can't be load"/>
+  
+<img src="data/vcxsrv4.png" alt="image can't be load"/>
+</div>
+
+- kemudian buka folder dengan vscode 
+- sebelum lanjut pastikan docker sudah aktif
+- pergi ke Terminal dan jalankan syntax berikut untuk build docker
+```
+docker build -t invasiufo .
+```
+- proses build sudah selesai, untuk cek images yang dibuat jalankan syntax berikut maka akan terlihat images `invasiufo` yang menandakan proses build berhasil
+```
+docker images
+``` 
+- selanjutnya jalankan container dengan syntax berikut
+```
+docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 0:0 -e DISPLAY=192.168.1.4:0.0 -v /d/InvasiUFO:/home/apps invasiufo /bin/bash
+```
+- lalu ketik `ls` untuk melihat file yang ada di dalam container, jika build sukses maka terlihat beberapa file dari program game ini
+- terakhir jalankan syntax berikut untuk memulai game
+```
+python main.py
+```
 
 ## Depedencies (Library)
 Adapun library yang kami gunakan dalam membuat game Halcyon, yaitu:

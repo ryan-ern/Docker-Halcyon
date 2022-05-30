@@ -22,7 +22,7 @@ Kami membuat game Halcyon ini karena terinspirasi dari video game Platypus yang 
 <img src="assets/vcxsrv.png" alt="image can't be load" />
 </div>
 
-- Berikutnya buka terminal dan pastikan directorynya berada pada lokasi folder `(D:)`
+- Berikutnya buka terminal dan pastikan directorynya berada pada lokasi folder game halcyon ini
 - Sebelum lanjut pastikan docker sudah aktif
 - Pada terminal, jalankan syntax berikut untuk build docker
 ```
